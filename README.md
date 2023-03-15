@@ -8,21 +8,17 @@
 
 ## 작성규칙
 
-=> VSCode를 사용한다 여태껏 사용해본 것들중에는 제일 좋다.
+=> 아직은 정해진 바가 없음. 왜냐면 난 방금 공부를 시작한 **코린이** 이기때문...
 
 ---
 
 ## 배우는 목록
 
- #JavaScript, #Node.js, #mysql...
+ #JavaScript, #Node.js, #mysql..., #(이후 추가예정)
 
 ---
 
-[Javascript](./FDS5주차/prepareForExam0425.md)
-
-[ReactJS](./ReactJS/ReactJS.md)
-
-[NodeJS+HTTP](./FDS9주차/Nodejs+Http.md)
+[Javascript] 
 
 # 일일회고
 
