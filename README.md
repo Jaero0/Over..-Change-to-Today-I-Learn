@@ -24,7 +24,7 @@
 ### 📗 도서 목록
 
 * [Javascript] 
-   * [Do it! 자바스크립트 입](http://www.yes24.com/Product/Goods/104803061)
+   * [Do it! 자바스크립트 문문](http://www.yes24.com/Product/Goods/104803061)
 
 # 일일회고
 
