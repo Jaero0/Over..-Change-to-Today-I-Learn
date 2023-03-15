@@ -14,7 +14,7 @@
 
 ## 배우는 목록
 
- #JavaScript,   #Node.js,   #mysql...,   #(이후 추가예정)
+ #JavaScript,    #Node.js,    #mysql...,   #(이후 추가예정)
 
 ---
 
