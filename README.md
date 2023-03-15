@@ -2,8 +2,10 @@
 # Today I Learned 
 
 배운 것들을 욕심부리지 않고 적을 수 있을 때까지 적어보자!
+###***백엔드** 숙련자!*
 
 15, March, 2023 Empienzo!!
+
 
 ## 작성규칙
 
@@ -11,25 +13,9 @@
 
 ---
 
-## 로컬에서 띄우기
-
-```git
-
-- git add . or git add today's file
-
-- git commit -m "today's date"
-
-- git push
-
-```
-
-## Source tree
-
-1. 한번에 Commit Push 까지
-
 ## 배우는 목록
 
- #Html, #Css, #Javascript
+ #JavaScript, #Node.js, #mysql...
 
 ---
 
