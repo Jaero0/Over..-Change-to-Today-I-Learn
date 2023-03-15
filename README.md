@@ -23,8 +23,8 @@
 
 ### 📗 도서 목록
 
-1. [Javascript] 
- 1. [Do it! 자바스크립트 입](http://www.yes24.com/Product/Goods/104803061)
+* [Javascript] 
+ * [Do it! 자바스크립트 입](http://www.yes24.com/Product/Goods/104803061)
 
 # 일일회고
 
