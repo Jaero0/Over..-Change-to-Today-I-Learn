@@ -62,6 +62,6 @@
 1. [깃허브 마크다운 사용]((https://github.com/jinkyukim-me/markdown_ko)
    1.  #은 H태그다
    2.  \* *는 기울여쓰기* , \** **는 굵게 쓰기** , \~~ ~~는 취소선~~, \ 를 붙이면 특수문자 무시
-   3.  HL삽입하려면 [링크](http://example.com "링크 제목")
+   3.  HL삽입하려면 \[링크](http://example.com "링크 제목")\
 
 - - - -
