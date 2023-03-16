@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>할인율 구하기</title>
+</head>
+<style>
+		#contents {
+			width: 500px;
+			height: 150px;
+			margin:0 auto;
+		}
+		#contents > img {
+			float:left;
+			margin-right:25px;
+			width: 160px;
+			height: 160px;
+		}
+		ul {			
+			list-style: none;
+			padding-top:40px;
+		}
+		li {
+			margin-bottom:10px;
+		}
+		li > label {
+			width:80px;
+			float:left;
+			text-align:right;
+		}
+		input[type="text"] {
+			width:110px;
+			padding:5px 10px;			
+			margin:0 5px 0 10px;
+		}
+		li:nth-child(3) {
+			margin-top:20px;
+			text-align: center;
+		}
+		button {
+			padding:5px 10px;
+			border:1px solid #ccc;			
+			font-size:1em;
+		}
+		#showResult {
+			margin-top:20px;
+			font-size:1.5rem;		
+		}
+</style>
+<body>	
+	<div id="contents">
+		<img src="https://s3-ap-southeast-2.amazonaws.com/images.imagescience.com.au/_201904_imager-transforms/s3images/Products/Clearance-Products/39878/SALE_8a39ff8a6b9c4355b296f93fc26068cc.jpg">
+		<ul>
+			<li>
+					<label for="oPrice">원래 가격</label> 
+					<input type="text" id="oPrice">원
+			</li>
+			<li>
+				<label for="sPrice">할인가</label>
+				<input type="text" id="sPrice">원
+			</li>
+			<li>
+					<button onclick="showPrice()">할인율 계산하기</button>
+			</li>
+		</ul>
+		<div id="showResult"></div>	
+	</div>	
+	<script>
+		function showPrice()
+		{
+			var originPrice = document.querySelector("#oPrice").value;
+			var salePrice = document.querySelector("#sPrice").value;
+			var rate = (originPrice - salePrice) / originPrice * 100;
+			var diffPrice = originPrice - salePrice;
+			document.querySelector("#showResult").innerHTML = "상품의 원래 가격은 " + originPrice + "원이고, 할인가는 " + salePrice + "원입니다. " + "할인율은 약 " + rate.toFixed(1) + "%이고, 따라서 아낄 수 있는 금액은 " + diffPrice + "원 입니다!"
+		}
+	</script>
+</body>
+</html>
