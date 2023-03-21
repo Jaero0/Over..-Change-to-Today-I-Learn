@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>중첩된 for 문</title>
+	
+</head>
+<style>
+	body { 
+	text-align:center; 
+	font-size:2em;	
+}
+</style>
+<body>
+<script>
+	// * 7개짜리 피라미드 7개, 다이아몬드 출력하기! 최대한 간결하게! 챗피피티 이용불가! 대신 웹서핑 가능!
+
+    for (let i = 1; i <= 7; i++) 
+    {
+        for (let k = 1; k <= 7; k++) //얼마나 큰 피라미드를 만들것인가
+        {
+            for (let p = 1; p <= k; p++) //p가 1일때 p가 k보다 작거나 같으면 p를 1씩 모든 계산이 끝나후 더한다
+            {
+                document.write("*"); //*을 숫자만큼 찍는다, p가 1이면 1번, p가 2면 1일때, 2일때 한번씩 총 두번...
+            }
+            document.write("<br>");
+        }//이 안의 반복문은 어떻게 피라미드를 만들것인가에 대한 반복문
+        
+    }//겉의 for문은 그 안에있는 for문을 몇번 반복할것인가에 대한 반복문
+
+</script>
+</body>
+</html>
