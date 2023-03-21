@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>중첩된 for 문</title>
+	
+</head>
+<style>
+	body { 
+	text-align:center; 
+	font-size:2em;	
+}
+</style>
+<body>
+<script>
+	// * 7개짜리 피라미드 7개, 다이아몬드 출력하기! 최대한 간결하게! 챗피피티 이용불가! 대신 웹서핑 가능!
+for (let T = 1; T <= 14; T++) {
+	
+	
+
+    for (let i = 1; i <= 7; i++) 
+    {
+		for (let k = 1; k <= i; k++) 
+		{
+			document.write("*");
+		}
+		
+		document.write("<br>");
+    }
+	for (let p = 6; p >= 1; p--) //p값이 6인데 1보다 크거나 같으면(참) 아래 실행문을 실행후 증감식 이용
+	{
+		for (let u = 1; u <= p; u++) //u값이 1인데 l값이 p보다 작거나 같으면 *을 그만큼 찍고 증감식
+		{
+			document.write("*");
+		}
+		document.write("<br>");
+	}
+}
+
+</script>
+</body>
+</html>
