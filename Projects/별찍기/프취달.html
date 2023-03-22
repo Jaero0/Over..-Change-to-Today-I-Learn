@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프붕쨔응</title>
+</head>
+<body>
+    <script>
+        for (let y = 1; y <= 2; y++) // 안의 반복문을 2번 반복시킬것임
+        {
+            for (let i = 1; i <= 10; i++) //i가 1이고, 10보다 작거나 같을때, i++
+            {
+                for (let k = 1; k <= i; k++) 
+                {
+                    document.write("*"); // i가 1부터 시작하고, k값은 i값에 따라 점점 늘어나기에 *1개부터 10개까지
+                }
+                document.write("<br>");
+            } //여기까지 하면 반쪽자리 * 10칸 직각 삼각형 1개
+
+            for (let p = 9; p >= 1; p--) 
+            {
+                for (let j = 1; j <= p; j++) //j는 1이고 j가 p보다 작거나 같을때 j++
+                {
+                    document.write("*"); //p가 9부터 시작이고, j값은 처음엔 , 다음엔 9... 줄어들기에 *9개부터 1개까지
+
+                }
+                document.write("<br>"); 
+            }
+        }
+    </script>
+</body>
+</html>
