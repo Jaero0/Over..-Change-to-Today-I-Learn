@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>짝수 더하기</title>
+</head>
+<style>
+	body {
+	padding-top:20px;
+	font-size:1.2em;
+	text-align:center;
+}
+
+</style>
+<body>
+	<h1>짝수끼리 더하기</h1>
+	<script>
+		let num = prompt("숫자를 입력하세요!");
+		let sum = 0;
+		for (let i = 0; i <= num; i++) 
+		{
+			if (i % 2 === 1) {
+				continue;
+			}
+			sum += i;
+		}
+
+		document.write(`0부터 ${num}까지의 모든 짝수의 합은 ${sum}입니다`); //완료!! So easy now!
+	</script>
+</body>
+</html>
